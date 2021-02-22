@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+$LOAD_PATH << './lib'
+
+require 'nmax'
+
+puts NMax.get(stdin: STDIN, count: ARGV[0].to_i)
