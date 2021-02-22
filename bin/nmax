@@ -3,4 +3,4 @@ $LOAD_PATH << './lib'
 
 require 'nmax'
 
-puts NMax.get(stdin: STDIN, count: ARGV[0].to_i)
+puts Nmax.get(stdin: STDIN, count: ARGV[0].to_i)
