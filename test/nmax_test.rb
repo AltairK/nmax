@@ -3,7 +3,7 @@ require 'tempfile'
 
 describe Nmax do
   it 'should get 2 max numbers from readed file' do
-    assert_equal `cat #{Bundler.root}/test/fixtures/text_with_numbers.txt | #{Bundler.root}/bin/nmax 2}`, "22\n30\n"
+    assert_equal `cat #{Bundler.root}/test/fixtures/text_with_numbers.txt | #{Bundler.root}/bin/nmax 2}`, "31\n56\n"
   end
 
   def memstats
